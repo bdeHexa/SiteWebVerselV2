@@ -28,6 +28,9 @@ export default function Navbar() {
                 Administration
               </Link>
             )}
+            <Link href="/kanban" className="hover:underline">
+              Kanban
+            </Link>
             <button onClick={logout} className="hover:underline">
               Déconnexion
             </button>
